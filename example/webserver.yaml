@@ -1,0 +1,5 @@
+#cloud-config
+packages:
+  - vim
+runcmd:
+  - sudo cat /etc/hostname > /usr/share/nginx/html/index.html
